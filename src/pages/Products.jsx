@@ -47,13 +47,13 @@ function Products() {
       transition={{ duration: 0.5 }}
     >
       {/* Hero Section */}
-      <section className="py-5 bg-light">
+      <section className="py-4 py-md-5 bg-light">
         <div className="container">
           <div className="text-center">
-            <h1 className="display-5 fw-bold mb-3">
+            <h1 className="display-5 display-md-4 fw-bold mb-3">
               The <span style={{ color: '#846CF9' }}>Vectoredge</span> Ecosystem
             </h1>
-            <p className="lead text-muted mb-4">
+            <p className="lead text-muted mb-3 mb-md-4">
               Eight powerful modules. One unified platform. Zero integration headaches.
             </p>
           </div>
@@ -61,7 +61,7 @@ function Products() {
       </section>
 
       {/* Intro Paragraph */}
-      <section className="py-4">
+      <section className="py-3 py-md-4">
         <div className="container">
           <div className="row">
             <div className="col-lg-10 mx-auto">
@@ -78,9 +78,9 @@ function Products() {
       </section>
 
       {/* Modules Grid */}
-      <section className="py-5">
+      <section className="py-4 py-md-5">
         <div className="container">
-          <div className="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div className="row g-3 g-md-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
             {modules.map((module, index) => (
               <div key={index} className="col">
                 <div className="card h-100 border-0 shadow-sm">
