@@ -34,8 +34,8 @@ function Customers() {
     >
       <section className="py-5 bg-light">
         <div className="container">
-          <h1 className="display-5 fw-bold text-center mb-3">Trusted by Teams Worldwide</h1>
-          <p className="lead text-center text-muted mb-5">See what our customers have to say</p>
+          <h1 className="display-5 fw-bold text-center mb-3">Trusted by the World's Fastest-Growing Teams</h1>
+          <p className="lead text-center text-muted mb-5">From 10-person startups to 1,000+ enterprises</p>
         </div>
       </section>
 
